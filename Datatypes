@@ -1,0 +1,109 @@
+code 1:
+public class DataTypesExample {
+    public static void main(String[] args) {
+        byte age = 25;
+        short year = 2025;
+        int population = 1380000000;
+        long distance = 12345678901L;
+        float price = 99.99f;
+        double pi = 3.14159265358979;
+        char grade = 'A';
+        boolean isJavaFun = true;
+        System.out.println("Age: " + age);
+        System.out.println("Year: " + year);
+        System.out.println("Population: " + population);
+        System.out.println("Distance: " + distance);
+        System.out.println("Price: " + price);
+        System.out.println("PI: " + pi);
+        System.out.println("Grade: " + grade);
+        System.out.println("Is Java Fun? " + isJavaFun);
+    }
+}
+-------------------------------------------------------------------------
+code 2:
+public class StringExample {
+    public static void main(String[] args) {
+        String name = "Manoj";
+        System.out.println("Hello, " + name.toUpperCase());
+    }
+}
+---------------------------------------------------------------------------------------
+code 3:
+class Car {
+    String model;
+    int year;
+}
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+        myCar.model = "Toyota";
+        myCar.year = 2020;
+        System.out.println("Car: " + myCar.model + " (" + myCar.year + ")");
+    }
+}
+----------------------------------------------------------------------------------------------
+code 4:
+public class CastingExample {
+    public static void main(String[] args) {
+        int a = 10;
+        double b = a; 
+        System.out.println("Double value: " + b);
+        double c = 10.99;
+        int d = (int) c; 
+        System.out.println("Int value: " + d);
+    }
+}
+----------------------------------------------------------
+code 5:
+public class ByteExample {
+    public static void main(String[] args) {
+        byte age = 18;
+        byte pencils = 100;
+        System.out.println("Age: " + age);
+        System.out.println("Pencils in box: " + pencils);
+    }
+}
+------------------------------------------------------------
+code 6:
+public class ShortExample {
+    public static void main(String[] args) {
+        short currentYear = 2025;
+        System.out.println("Current Year: " + currentYear);
+    }
+}
+---------------------------------------------------------------
+code 7:
+public class LongExample {
+    public static void main(String[] args) {
+        long population = 1400000000L;  
+        System.out.println("World Population: " + population);
+    }
+}
+--------------------------------------------------------------
+code 8:
+public class FloatExample {
+    public static void main(String[] args) {
+        float itemPrice = 49.99f;
+        System.out.println("Item Price: ₹" + itemPrice);
+    }
+}
+--------------------------------------------------------------------
+code 9:
+public class DoubleExample {
+    public static void main(String[] args) {
+        double pi = 3.141592653589793;
+        System.out.println("Value of Pi: " + pi);
+    }
+}
+-------------------------------------------------------------------------
+code 10:
+public class CharExample {
+    public static void main(String[] args) {
+        char grade = 'A';
+        char symbol = '#';
+        System.out.println("Grade: " + grade);
+        System.out.println("Symbol: " + symbol);
+    }
+}
+
+
